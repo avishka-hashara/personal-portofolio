@@ -19,9 +19,9 @@ const Footer = () => {
             <a href="https://github.com/avishka-hashara" className="text-gray-400 hover:text-white transition-colors"><i className="ri-github-fill ri-2x"></i></a>
             <a href="https://www.instagram.com/avishka_hashara" className="text-gray-400 hover:text-white transition-colors"><i className="ri-instagram-fill ri-2x"></i></a>
             <a href="https://www.youtube.com/@infinity_ahashara" className="text-gray-400 hover:text-white transition-colors"><i className="ri-youtube-fill ri-2x"></i></a>
-            <a href="https://twitter.com" className="text-gray-400 hover:text-white transition-colors"><FaTwitter size={28} /></a>
-            <a href="https://linkedin.com" className="text-gray-400 hover:text-white transition-colors"><FaLinkedin size={28} /></a>
-            <a href="https://facebook.com" className="text-gray-400 hover:text-white transition-colors"><FaFacebook size={28} /></a>
+            <a href="https://x.com/HasharaAvishka" className="text-gray-400 hover:text-white transition-colors"><FaTwitter size={28} /></a>
+            <a href="www.linkedin.com/in/avishkahashara" className="text-gray-400 hover:text-white transition-colors"><FaLinkedin size={28} /></a>
+            <a href="https://www.facebook.com/profile.php?id=100012875296379" className="text-gray-400 hover:text-white transition-colors"><FaFacebook size={28} /></a>
           </div>
           <p className="text-sm text-gray-500">Made with ❤️ using React & Tailwind CSS</p>
           <p className="text-sm text-gray-500">© 2024 Avishka Hashara. All rights reserved.</p>
