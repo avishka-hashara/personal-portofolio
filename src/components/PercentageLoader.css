@@ -1,0 +1,78 @@
+.percentage-loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #000; /* Fallback background */
+  z-index: 10000;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+.aurora-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it's behind the content */
+}
+
+.name-text {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  animation: fade-in 1.5s ease-in-out;
+}
+
+.percentage-bar-container {
+  width: 80%;
+  max-width: 400px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.percentage-bar {
+  height: 100%;
+  background-color: #1F97A6;
+  border-radius: 10px;
+  transition: width 0.1s linear;
+}
+
+.percentage-text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  animation: pulsate 1.5s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
