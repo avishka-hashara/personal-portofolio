@@ -23,8 +23,8 @@ const Footer = () => {
             <a href="www.linkedin.com/in/avishkahashara" className="text-gray-400 hover:text-white transition-colors"><FaLinkedin size={28} /></a>
             <a href="https://www.facebook.com/profile.php?id=100012875296379" className="text-gray-400 hover:text-white transition-colors"><FaFacebook size={28} /></a>
           </div>
-          <p className="text-sm text-gray-500">Made with ❤️ using React & Tailwind CSS</p>
-          <p className="text-sm text-gray-500">© 2024 Avishka Hashara. All rights reserved.</p>
+    
+          <p className="text-sm text-gray-500">© 2025 Avishka Hashara. All rights reserved.</p>
         </div>
         <div className="order-3 md:order-none mt-15 md:mt-0  md:mb-0">
           <Dock 
